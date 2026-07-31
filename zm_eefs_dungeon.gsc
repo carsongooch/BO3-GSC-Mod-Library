@@ -1,5 +1,7 @@
 #using scripts\codescripts\struct;
 
+#using scripts\zm\_zm_perk_blood_wolf_bite;
+
 //WW2 power switch
 #using scripts\fanatic\ww2\ww2_power_switch;
 
@@ -85,6 +87,8 @@ function main()
 {
 	zm_usermap::main();
 
+	thread door1_setup();
+
 	//WW2 Power Switch
 	ww2_power_switch::init();
 
@@ -113,6 +117,7 @@ function main()
 	thread iceGrenade_autoZones();
 }
 
+
 function usermap_test_zone_init()
 {
 	level flag::init( "always_on" );
@@ -120,8 +125,24 @@ function usermap_test_zone_init()
 	zm_zonemgr::add_adjacent_zone( "start_zone", "zone_2", "activate_zone_2");
 	zm_zonemgr::add_adjacent_zone( "zone_2", "zone_3", "activate_zone_3");
 	zm_zonemgr::add_adjacent_zone( "zone_2", "zone_4", "activate_zone_4");
-	zm_zonemgr::add_adjacent_zone( "zone_4", "zone_5", "activate_zone_5");
-	zm_zonemgr::add_adjacent_zone( "zone_3", "zone_6", "activate_zone_6");
+	zm_zonemgr::add_adjacent_zone( "zone_4", "zone_5", "activate_zone_5_from_4");
+	zm_zonemgr::add_adjacent_zone( "zone_3", "zone_6", "activate_zone_6_from_3");
+	zm_zonemgr::add_adjacent_zone( "zone_6", "hub_zone1", "activate_hub_zone1_from_6");
+	zm_zonemgr::add_adjacent_zone( "hub_zone1", "zone_5", "activate_zone_5_from_hub");
+	zm_zonemgr::add_adjacent_zone( "zone_6", "power_zone", "activate_power_zone");
+	zm_zonemgr::add_adjacent_zone( "hub_zone1", "lab_zone1", "activate_lab_zone1");
+	zm_zonemgr::add_adjacent_zone( "lab_zone1", "lab_zone2", "activate_lab_zone2");
+	zm_zonemgr::add_adjacent_zone( "zone_6", "zone_3", "activate_zone_3_from_6");
+	zm_zonemgr::add_adjacent_zone( "hub_zone1", "zone_6", "activate_zone_6_from_hub");
+	zm_zonemgr::add_adjacent_zone( "zone_3", "zone_2", "activate_zone_2_from_3");
+	zm_zonemgr::add_adjacent_zone( "zone_4", "zone_2", "activate_zone_2_from_4");
+	zm_zonemgr::add_adjacent_zone( "zone_5", "zone_4", "activate_zone_4_from_5");
+	zm_zonemgr::add_adjacent_zone( "lab_zone2", "lab_side_zone", "activate_lab_side_zone");
+	zm_zonemgr::add_adjacent_zone( "lab_zone2", "lab_tunnel_zone", "activate_lab_tunnel_zone");
+	zm_zonemgr::add_adjacent_zone( "lab_tunnel_zone", "lab_hub_zone", "activate_lab_hub_zone");
+	zm_zonemgr::add_adjacent_zone( "lab_hub_zone", "ritual2_room_zone", "activate_ritual2_room_zone");
+	zm_zonemgr::add_adjacent_zone( "ritual2_room_zone", "vine_room_zone", "activate_vine_room_zone");
+	zm_zonemgr::add_adjacent_zone( "vine_room_zone", "zone_5", "activate_zone_5_from_vine");
 }	
 
 function custom_add_weapons()
@@ -133,6 +154,10 @@ function iceGrenade_autoZones()
 {
     //One thread below for each trigger
     thread triggerZone("activate_zone_2");
+   	thread triggerZone("activate_lab_zone2");
+   	thread triggerZone("activate_ritual2_room_zone");
+   	thread triggerZone("activate_vine_room_zone");
+	thread triggerZone("activate_zone_5_from_vine");
 }
 
     
@@ -142,3 +167,12 @@ function iceGrenade_autoZones()
     runit waittill("trigger", player);
     level flag::set( ztarg );
 }
+
+	function door1_setup() {
+
+		level flag::init("door1_bought");
+		door1_collision_clip = GetEnt("door1_collision_clip", "targetname");
+		door1_collision_clip hide();
+    	level flag::wait_till("door1_bought");
+		door1_collision_clip Show();
+	}
