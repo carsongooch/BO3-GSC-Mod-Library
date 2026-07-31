@@ -1,6 +1,6 @@
 # BO3-GSC-Mod-Library
 
-## 📸 Level Design & Environmental Lighting
+## Level Design & Environmental Lighting
 
 | Ethan's Dungeon: Main Chamber | Ethan's Dungeon: Cavern & Fog |
 | :---: | :---: |
