@@ -8,6 +8,7 @@ Welcome to my Call Of Duty: Black Ops III Modding Repository. This repository co
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](Dungeon_cave.png) |
 
+### Boss Encounter
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 
