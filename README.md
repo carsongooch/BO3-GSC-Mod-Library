@@ -6,7 +6,7 @@
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](Dungeon_cave.png) |
 
-<video src="n_boss.mp4" controls width="100%" poster="assets/Dungeon_chamber.png">
+<video src="n_boss.mp4" controls width="100%" poster="Dungeon_chamber.png">
   Your browser does not support the video tag.
 </video>
 
