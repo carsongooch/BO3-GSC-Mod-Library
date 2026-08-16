@@ -6,4 +6,8 @@
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](Dungeon_cave.png) |
 
+<video src="n_boss.mp4" controls width="100%" poster="assets/Dungeon_chamber.png">
+  Your browser does not support the video tag.
+</video>
+
 This repository contains a collection of all of my custom scripts developed for my Call of Duty Black Ops III Zombies using the GSC language. These files contain code about game logic, game quests, and custom behaviors. Most of the code is written by me, however some credited code is from tutorials and other sources.
