@@ -1,6 +1,6 @@
 # BO3-GSC-Mod-Library
 
-This repository contains a collection of all of my custom scripts developed for my Call of Duty Black Ops III Zombies using the GSC language. These files contain code about game logic, game quests, and custom behaviors. Most of the code is written by me, however some credited code is from tutorials and other sources.
+Welcome to my Call Of Duty: Black Ops III Modding Repository. This repository contains a collection of custom GSC scripts, level design assets, and image/video showcases for my Black Ops III Zombies projects (*Nathan's Donuts & Ethan's Dungeon*) These showcases feature custom quest mechanics, environmental design, dynamic lighting, and enemy scripting. 
 
 ## Level Design & Environmental Lighting
 
