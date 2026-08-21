@@ -11,4 +11,8 @@ Welcome to my Call Of Duty: Black Ops III Modding Repository. This repository co
 ### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
+### *Nathan's Donuts* Public Player Stats
+| ![Ethan's Dungeon Main Chamber](assets/n_stats.png) |
+
+
 
