@@ -14,5 +14,9 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 ### *Nathan's Donuts* Public Player Stats
  ![Nathan's Donuts Player Stats](assets/n_stats.png) 
 
+ -6,456 Total Players
+ -20,060 Player Views
+ -256 Favorites
+ -81% Positive Rating
 
 
