@@ -19,4 +19,13 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
  ### 258 Favorites
  ### 81% Positive Rating
 
+### Nathan's Donuts Overview:
+*Nathan's Donuts* is a fully playable custom Call of Duty: Black Ops III Zombies map developed using the Black Ops III Mod Tools. I designed and implemented the map's gameplay systems, scripted interactive quests and mechanics, along with custom enemy behavior using GSC.
 
+Gameplay Systems
+
+-__Multi-stage Easter Egg:__ Designed and scripted a quest system consisting of multiple objects and player-triggered events.
+-__Custom Boss Encounter:__ Developed a fully scripted final boss encounter that involves multiple objectives and events.
+-__Interactive Systems:__ Created custom interactions for environmental objects, doors, teleporters, and quest related mechanics.
+-__Custom Weapon & Perk Systems:__ Integrated custom gameplay functionality with base game weapons and perk systems.
+-__Custom Jukebox Script:__ Developed a music-selection system that supports song selection, and player controlled song changes.
