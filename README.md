@@ -11,12 +11,17 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 ### *Nathan's Donuts* - Project Impact
  ![Nathan's Donuts Player Stats](assets/n_stats.png) 
 
+<div align="center">
+
+
 | Metric |  Result |
 |---|---:|
 | Total Players |**6,462+** |
 | Player Views |**20,074+** |
 | Total Players |**258** |
 | Positive Rating |**81%** |
+
+</div>
 
 ### Nathan's Donuts Overview:
 *Nathan's Donuts* is a fully playable custom Call of Duty: Black Ops III Zombies map developed using the Black Ops III Mod Tools. I designed and implemented the map's gameplay systems, scripted interactive quests and mechanics, along with custom enemy behavior using GSC.
