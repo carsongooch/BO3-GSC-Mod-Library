@@ -21,9 +21,6 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 
 ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
 
- ### *Nathan's Donuts* Final Boss Gameplay
-https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
-
 Gameplay Systems
 
 -__Multi-stage Easter Egg:__ Designed and scripted a quest system consisting of multiple objects and player-triggered events.
@@ -35,5 +32,8 @@ Gameplay Systems
 -__Custom Weapon & Perk Systems:__ Integrated custom gameplay functionality with base game weapons and perk systems.
 
 -__Custom Jukebox Script:__ Developed a music-selection system that supports song selection, and player controlled song changes.
+
+ ### *Nathan's Donuts* Final Boss Gameplay
+https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 
