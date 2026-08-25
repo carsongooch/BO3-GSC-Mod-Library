@@ -8,7 +8,7 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
-### *Nathan's Donuts* -Project Impact
+### *Nathan's Donuts* - Project Impact
  ![Nathan's Donuts Player Stats](assets/n_stats.png) 
 
  ### 6,462+ Total Players
@@ -21,17 +21,19 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 
 ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
 
-Gameplay Systems
+Technical Implementation
 
--__Multi-stage Easter Egg:__ Designed and scripted a quest system consisting of multiple objects and player-triggered events.
+-__Multi-Stage Quest System:__ Designed and implemented a multi-stage quest system consisting of interconnected objectives, player interactions, and progression events
 
--__Custom Boss Encounter:__ Developed a fully scripted final boss encounter that involves multiple objectives and events.
+-__Event-Driven Gameplay:__ Connected player actions and entity interactions to scripted events that advance quest progression.
 
--__Interactive Systems:__ Created custom interactions for environmental objects, doors, teleporters, and quest related mechanics.
+__Custom Boss Encounter:__ Developed a fully scripted final boss encounter involving multiple objectives, enemy behaviors, and gameplay events.
+
+-__Interactive Systems:__ Implemented custom interactions for environmental objects, doors, teleporters, and quest-related mechanics.
 
 -__Custom Weapon & Perk Systems:__ Integrated custom gameplay functionality with base game weapons and perk systems.
 
--__Custom Jukebox Script:__ Developed a music-selection system that supports song selection, and player controlled song changes.
+-__Custom Jukebox Script:__ Developed a music-selection system supporting song selection and player-controlled song changes.
 
  ### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
