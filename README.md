@@ -36,5 +36,4 @@ Gameplay Systems
 
 -__Custom Jukebox Script:__ Developed a music-selection system that supports song selection, and player controlled song changes.
 
- ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
 
