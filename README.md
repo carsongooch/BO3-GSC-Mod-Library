@@ -8,9 +8,6 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
-### *Nathan's Donuts* Final Boss Gameplay
-https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
-
 ### *Nathan's Donuts* -Project Impact
  ![Nathan's Donuts Player Stats](assets/n_stats.png) 
 
@@ -21,6 +18,11 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ### Nathan's Donuts Overview:
 *Nathan's Donuts* is a fully playable custom Call of Duty: Black Ops III Zombies map developed using the Black Ops III Mod Tools. I designed and implemented the map's gameplay systems, scripted interactive quests and mechanics, along with custom enemy behavior using GSC.
+
+![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
+
+ ### *Nathan's Donuts* Final Boss Gameplay
+https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 Gameplay Systems
 
@@ -35,3 +37,4 @@ Gameplay Systems
 -__Custom Jukebox Script:__ Developed a music-selection system that supports song selection, and player controlled song changes.
 
  ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
+
