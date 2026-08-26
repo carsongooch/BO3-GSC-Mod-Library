@@ -55,9 +55,11 @@ Nathan's Donuts Main Quest is structured as a sequence of interconnected stages,
 
 ## Code Example Two:
 
+Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and verifies progression logic.
+
 ![Nathan's Donuts Code Example 1](assets/code_example2.png) 
 
-
+## Code Example Three:
 
  ### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
