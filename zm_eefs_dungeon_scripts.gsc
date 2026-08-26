@@ -62,83 +62,83 @@ function autoexec elevator_repair()
 	thread gear3_f();
 }
 
-function autoexec bong_shootable1() {
-	level.bong_count = 0;
-	bong_shoot1 = GetEnt("bong_shoot1", "targetname");
-	bong_target1 = GetEnt("bong_target1", "targetname");
-	bong_target1 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot1 GetOrigin());
-	bong_shoot1 Delete();
-	bong_target1 Delete();
-	thread bong_shot();
+function autoexec glass_shootable1() {
+	level.glass_count = 0;
+	glass_shoot1 = GetEnt("glass_shoot1", "targetname");
+	glass_target1 = GetEnt("glass_target1", "targetname");
+	glass_target1 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot1 GetOrigin());
+	glass_shoot1 Delete();
+	glass_target1 Delete();
+	thread glass_shot();
 }
 
-function autoexec bong_shootable2() {
-	bong_shoot2 = GetEnt("bong_shoot2", "targetname");
-	bong_target2 = GetEnt("bong_target2", "targetname");
-	bong_target2 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot2 GetOrigin());
-	bong_shoot2 Delete();
-	bong_target2 Delete();
-	thread bong_shot();
+function autoexec glass_shootable2() {
+	glass_shoot2 = GetEnt("glass_shoot2", "targetname");
+	glass_target2 = GetEnt("glass_target2", "targetname");
+	glass_target2 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot2 GetOrigin());
+	glass_shoot2 Delete();
+	glass_target2 Delete();
+	thread glass_shot();
 }
 
-function autoexec bong_shootable3() {
-	bong_shoot3 = GetEnt("bong_shoot3", "targetname");
-	bong_target3 = GetEnt("bong_target3", "targetname");
-	bong_target3 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot3 GetOrigin());
-	bong_shoot3 Delete();
-	bong_target3 Delete();
-	thread bong_shot();
+function autoexec glass_shootable3() {
+	glass_shoot3 = GetEnt("glass_shoot3", "targetname");
+	glass_target3 = GetEnt("glass_target3", "targetname");
+	glass_target3 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot3 GetOrigin());
+	glass_shoot3 Delete();
+	glass_target3 Delete();
+	thread glass_shot();
 }
 
-function autoexec bong_shootable4() {
-	bong_shoot4 = GetEnt("bong_shoot4", "targetname");
-	bong_target4 = GetEnt("bong_target4", "targetname");
-	bong_target4 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot4 GetOrigin());
-	bong_shoot4 Delete();
-	bong_target4 Delete();
-	thread bong_shot();
+function autoexec glass_shootable4() {
+	glass_shoot4 = GetEnt("glass_shoot4", "targetname");
+	glass_target4 = GetEnt("glass_target4", "targetname");
+	glass_target4 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot4 GetOrigin());
+	glass_shoot4 Delete();
+	glass_target4 Delete();
+	thread glass_shot();
 }
 
-function autoexec bong_shootable5() {
-	bong_shoot5 = GetEnt("bong_shoot5", "targetname");
-	bong_target5 = GetEnt("bong_target5", "targetname");
-	bong_target5 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot5 GetOrigin());
-	bong_shoot5 Delete();
-	bong_target5 Delete();
-	thread bong_shot();
+function autoexec glass_shootable5() {
+	glass_shoot5 = GetEnt("glass_shoot5", "targetname");
+	glass_target5 = GetEnt("glass_target5", "targetname");
+	glass_target5 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot5 GetOrigin());
+	glass_shoot5 Delete();
+	glass_target5 Delete();
+	thread glass_shot();
 }
 
-function autoexec bong_shootable6() {
-	bong_shoot6 = GetEnt("bong_shoot6", "targetname");
-	bong_target6 = GetEnt("bong_target6", "targetname");
-	bong_target6 waittill("damage");
-	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", bong_shoot6 GetOrigin());
-	bong_shoot6 Delete();
-	bong_target6 Delete();
-	thread bong_shot();
+function autoexec glass_shootable6() {
+	glass_shoot6 = GetEnt("glass_shoot6", "targetname");
+	glass_target6 = GetEnt("glass_target6", "targetname");
+	glass_target6 waittill("damage");
+	PlayFX("dlc3/stalingrad/fx_dragon_gauntlet_transport_flash_lg", glass_shoot6 GetOrigin());
+	glass_shoot6 Delete();
+	glass_target6 Delete();
+	thread glass_shot();
 }
 
-function bong_complete() {
+function glass_complete() {
 	//this function is work in progress just placeholding
-	if (level.bong_count == 1000) {
-		level.bong_count = 0; //placeholder
+	if (level.glass_count == 1000) {
+		level.glass_count = 0; //placeholder
 	}
 }
 
-function bong_shot() {
+function glass_shot() {
 	players = getPlayers();
 	for (i = 0;i<players.size;i++)
 	{
-		players[i] PlayLocalSound("bongshoot_sfx");
+		players[i] PlayLocalSound("glassshoot_sfx");
 	}
-	level.bong_count++;
+	level.glass_count++;
 	thread give_points();
-	IPrintLnBold(level.bong_count + "/20 Bong's Found");
+	IPrintLnBold(level.glass_count + "/20 Glass Bottles Found");
 }
 
 function give_points() {
@@ -146,7 +146,7 @@ function give_points() {
 
 	foreach(player in players) {
 		player zm_score::add_to_player_score(1000);
-		player PlayLocalSound("bongshoot_sfx");
+		player PlayLocalSound("glassshoot_sfx");
 	}
 }
 
