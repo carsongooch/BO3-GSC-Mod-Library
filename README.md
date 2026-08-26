@@ -18,7 +18,7 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 |---|---:|
 | Total Players |**6,462+** |
 | Player Views |**20,074+** |
-| Total Players |**258** |
+| Total Favorites |**258** |
 | Positive Rating |**81%** |
 
 </div>
