@@ -50,6 +50,8 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 The Nathan's Donuts Main Quest is structured as a sequence of interconnected stages, with each stage responsible for a specific objective and progression state. Shared level variables track important conditions, allowing individual systems to determine when their requirements have been met and when the next stage of the quest can be activated.
 
+![Nathan's Donuts Code Example 1](assets/code_example1.png) 
+
  ### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
