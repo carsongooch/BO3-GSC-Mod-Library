@@ -34,6 +34,7 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 ## Technical Implementation
 
+### Quest Architecture 
 — __Multi-Stage Quest System:__ Designed and implemented a multi-stage quest system consisting of interconnected objectives, player interactions, and progression events
 
 — __Event-Driven Gameplay:__ Connected player actions and entity interactions to scripted events that advance quest progression.
