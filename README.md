@@ -32,7 +32,7 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
 
-###Technical Implementation
+### Technical Implementation
 
 — __Multi-Stage Quest System:__ Designed and implemented a multi-stage quest system consisting of interconnected objectives, player interactions, and progression events
 
