@@ -9,7 +9,7 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
 ### *Nathan's Donuts* - Project Impact
- ![Nathan's Donuts Player Stats](assets/n_stats.png) 
+ ![Nathan's Donuts Player Stats](assets/n_stat.png) 
 
 <div align="center">
 
