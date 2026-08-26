@@ -61,7 +61,7 @@ Quest progression is driven by player interactions and gameplay events rather th
 
 ## Code Example Three:
 
- ### *Nathan's Donuts* Final Boss Gameplay
+### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 
