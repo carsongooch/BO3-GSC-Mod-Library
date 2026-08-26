@@ -26,8 +26,6 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 ## Nathan's Donuts Overview:
 *Nathan's Donuts* is a fully playable custom Call of Duty: Black Ops III Zombies map developed using the Black Ops III Mod Tools. I designed and implemented the map's gameplay systems, scripted interactive quests and mechanics, along with custom enemy behavior using GSC.
 
-### Quest Architecture
-
 The quest is structured as a sequence of interconnected objectives, with branching gameplay tasks resulting in a final boss encounter.
 
 ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
@@ -48,6 +46,8 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 — __Custom Jukebox Script:__ Developed a music-selection system supporting song selection and player-controlled song changes.
 
 ## Nathan's Donuts — Code Implementations
+
+### Quest Architecture
 
 The Nathan's Donuts Main Quest is structured as a sequence of interconnected stages, with each stage responsible for a specific objective and progression state. Shared level variables track important conditions, allowing individual systems to determine when their requirements have been met and when the next stage of the quest can be activated.
 
