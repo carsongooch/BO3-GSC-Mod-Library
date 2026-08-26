@@ -46,7 +46,7 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 — __Custom Jukebox Script:__ Developed a music-selection system supporting song selection and player-controlled song changes.
 
-### Nathan's Donuts — Code Implementations
+## Nathan's Donuts — Code Implementations
 
 The Nathan's Donuts Main Quest is structured as a sequence of interconnected stages, with each stage responsible for a specific objective and progression state. Shared level variables track important conditions, allowing individual systems to determine when their requirements have been met and when the next stage of the quest can be activated.
 
