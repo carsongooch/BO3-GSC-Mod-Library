@@ -30,36 +30,21 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 ![Nathan's Donuts Quest Overview](assets/Nathan_Diagram.png) 
 
-## Technical Implementation
-
-### Quest Architecture 
-— __Multi-Stage Quest System:__ Designed and implemented a multi-stage quest system consisting of interconnected objectives, player interactions, and progression events
-
-— __Event-Driven Gameplay:__ Connected player actions and entity interactions to scripted events that advance quest progression.
-
-— __Custom Boss Encounter:__ Developed a fully scripted final boss encounter involving multiple objectives, enemy behaviors, and gameplay events.
-
-— __Interactive Systems:__ Implemented custom interactions for environmental objects, doors, teleporters, and quest-related mechanics.
-
-— __Custom Weapon & Perk Systems:__ Integrated custom gameplay functionality with base game weapons and perk systems.
-
-— __Custom Jukebox Script:__ Developed a music-selection system supporting song selection and player-controlled song changes.
-
 ## Nathan's Donuts — Code Implementations
 
-### Code Example One:
+### Multi-Stage Quest Architecture:
 
 Nathan's Donuts Main Quest is structured as a sequence of interconnected stages, with each stage responsible for a specific objective and progression state. Shared level variables track important conditions, allowing individual systems to determine when their requirements have been met and when the next stage of the quest can be activated.
 
 ![Nathan's Donuts Code Example 1](assets/code_example1.png) 
 
-## Code Example Two:
+## Event-Driven Gameplay:
 
-Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and verifies progression logic.
+Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invokes the apporpriate progression logic.
 
 ![Nathan's Donuts Code Example 1](assets/code_example2.png) 
 
-## Code Example Three:
+### Code Example Three:
 
 ### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
