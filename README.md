@@ -58,6 +58,7 @@ The final boss encounter is implemented as a multi-stage scripted system that co
 
 ### Dynamic Enemy Scripting
 
+![Nathan's Donuts Code Example 4B](assets/code_example4B.png) 
 
 
 ### *Nathan's Donuts* Final Boss Gameplay
