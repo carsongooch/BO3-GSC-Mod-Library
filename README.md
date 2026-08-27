@@ -74,10 +74,10 @@ A major focus of the project is improving the map's graphical quality through mo
 
 ### Ethan's Dungeon — Interactive Systems
 
-One of the main goals of Ethan's Dungeon is to expand beyond the gameplay systems developed by Nathan's Donuts by improving on, and creating more interactive environmental mechanics.
+One of the main goals of Ethan's Dungeon is to build upon the gameplay systems developed for Nathan's Donuts by creating more complex and interactive environmental mechanics.
 
-### Interactive Jukebox Systems
-The jukebox is organized into separate functions responsible for controlling its interaction state, song selection, visual representation, and audio playback. The main function manages jukebox states, while dedicated threads listens for song-change interaction until the jukebox is turned off.
+### Interactive Jukebox System
+The jukebox is organized into separate functions responsible for managing its interaction state, song selection, visual representation, and audio playback. The main function controls the jukebox's overall state, while a dedicated thread listens for song-change interactions until the jukebox is turned off.
 
 ![Ethan's Dungeon Code Example 1](assets/code_example5.png) 
 
