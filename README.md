@@ -54,7 +54,7 @@ This lockdown sequence combines player interaction, multiplayer state validation
 
 The final boss encounter is implemented as a multi-stage scripted system that coordinates player validation, enemy spawning, zone management, timed objectives, and stage transitions. Each stage has its own activation conditions and cleanup logic, allowing the encounter to progress through distinct gameplay phases.
 
-![Nathan's Donuts Code Example 1](assets/code_example4a.png) 
+![Nathan's Donuts Code Example 1](assets/code_example4A.png) 
 
 
 
