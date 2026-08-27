@@ -72,6 +72,11 @@ A major focus of the project is improving the map's graphical quality through mo
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
-### Interactive Jukebox System
+### Ethan's Dungeon — Interactive Systems
+
+One of the main goals of Ethan's Dungeon is to expand beyond the gameplay systems developed by Nathan's Donuts by improving on, and creating more interactive environmental mechanics.
+
+### Interactive Jukebox Systems
+The jukebox is organized into separate functions responsible for controlling its interaction state, song selection, visual representation, and audio playback. The main function manages jukebox states, while dedicated threads listens for song-change interaction until the jukebox is turned off.
 https://github.com/user-attachments/assets/42266ece-28cc-4af0-9e5f-80de6917eebd
 
