@@ -58,6 +58,8 @@ The final boss encounter is implemented as a multi-stage scripted system that co
 
 ### Dynamic Enemy Scripting
 
+Each phase of the boss fight takes place in a different room, with each phase introducing more enemies and boss zombies to progressively increase the difficulty. The encounter uses a scripted wave system to control enemy composition and pacing throughout the fight. Waves combine different enemy types, including high-health Panzers and Skullbreaker boss zombies. Each wave uses scripted delays and randomized spawn locations to create intense and unpredictable combat encounters. 
+
 ![Nathan's Donuts Code Example 4B](assets/code_example4B.png) 
 
 
