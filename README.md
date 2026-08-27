@@ -62,7 +62,7 @@ Each phase of the boss fight takes place in a different room, with each phase in
 
 ![Nathan's Donuts Code Example 4B](assets/code_example4B.png) 
 
-## *Nathan's Donuts* Final Boss Gameplay
+### *Nathan's Donuts* Final Boss Gameplay
 https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ## Ethan's Dungeon — In Development
