@@ -81,6 +81,8 @@ The jukebox is organized into separate functions responsible for managing its in
 
 ![Ethan's Dungeon Code Example 1](assets/code_example5.png) 
 
+The song selection system uses a shared state variable to determine which track is active. When the player changes songs, the system first hides all previous song indicators before displaying the newly selected one. The selected track is then played locally for every activate player, ensuring that the jukebox's visual state and audio remain synchronized in multiplayer.
+
 ![Ethan's Dungeon Code Example 2](assets/code_example6.png) 
 
 https://github.com/user-attachments/assets/42266ece-28cc-4af0-9e5f-80de6917eebd
