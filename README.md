@@ -81,5 +81,7 @@ The jukebox is organized into separate functions responsible for managing its in
 
 ![Ethan's Dungeon Code Example 1](assets/code_example5.png) 
 
+![Ethan's Dungeon Code Example 2](assets/code_example6.png) 
+
 https://github.com/user-attachments/assets/42266ece-28cc-4af0-9e5f-80de6917eebd
 
