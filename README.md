@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 __Ethan's Dungeon__  is a larger-scale Call of Duty Black Ops III Zombies project currently in development. This project builds on my scrip[ting and level-design experience from *Nathan's Donuts*, the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation.
 
-A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and a clear visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
+A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and clear visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
 
 ### Ethan's Dungeon — Environmental & Visual Design
 
