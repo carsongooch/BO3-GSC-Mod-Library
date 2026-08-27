@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ## Ethan's Dungeon — In Development
 
-__Ethan's Dungeon__  is a larger-scale Call of Duty Black Ops III Zombies project currently in development. This project builds on my scrip[ting and level-design experience from *Nathan's Donuts*, the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation.
+__Ethan's Dungeon__ is a larger-scale Call of Duty: Black Ops III Zombies project currently in development. Building on the scripting and level-design experience from *Nathan's Donuts,* the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual representation. 
 
 A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and clear visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
 
@@ -70,4 +70,6 @@ A major focus of the project is improving the map's graphical quality through mo
 | Ethan's Dungeon: Main Chamber | Ethan's Dungeon: Cavern & Fog |
 | :---: | :---: |
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
+
+### Interactive Jukebox System
 
