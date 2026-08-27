@@ -2,12 +2,6 @@
 
 A collection of custom GSC/CSC gameplay systems, scripting, and level design developed for Call of Duty: Black Ops III Zombies. This repository contains the source code and assets for *Nathan's Donuts and Ethan's Dungeon,* featuring event-driven gameplay, quest systems, interactive mechanics, dynamic lighting, environmental design and custom enemy behavior.
 
-## Level Design & Environmental Lighting
-
-| Ethan's Dungeon: Main Chamber | Ethan's Dungeon: Cavern & Fog |
-| :---: | :---: |
-| ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
-
 ### *Nathan's Donuts* — Project Impact
  ![Nathan's Donuts Player Stats](assets/n_stat.png) 
 
@@ -67,6 +61,13 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ## Ethan's Dungeon — In Development
 
-...
+__Ethan's Dungeon__  is a larger-scale Call of Duty Black Ops III Zombies project currently in development. This project builds on my scrip[ting and level-design experience from *Nathan's Donuts*, the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation.
 
+A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and a clear visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
+
+### Ethan's Dungeon — Environmental & Visual Design
+
+| Ethan's Dungeon: Main Chamber | Ethan's Dungeon: Cavern & Fog |
+| :---: | :---: |
+| ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
