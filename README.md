@@ -50,7 +50,7 @@ This lockdown sequence combines player interaction, multiplayer state validation
 
 ![Nathan's Donuts Code Example 3](assets/code_example3.png) 
 
-### Custom Boss Encounter
+### Boss Encounter: State Management
 
 The final boss encounter is implemented as a multi-stage scripted system that coordinates player validation, enemy spawning, zone management, timed objectives, and stage transitions. Each stage has its own activation conditions and cleanup logic, allowing the encounter to progress through distinct gameplay phases.
 
