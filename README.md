@@ -42,19 +42,19 @@ Nathan's Donuts Main Quest is structured as a sequence of interconnected stages,
 
 Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invokes the appropriate progression logic.
 
-![Nathan's Donuts Code Example 1](assets/code_example2.png) 
+![Nathan's Donuts Code Example 2](assets/code_example2.png) 
 
 ### Player Lockdown Event:
 
 This lockdown sequence combines player interaction, multiplayer state validation, round-based progression, and environmental events. Before the lockdown beings, the system verifies that every active player is alive and within a defined radius of the activation trigger. once these requirements are met, the area is sealed and players must survive the required rounds, and the environment is updated when the lockdown begins and ends. 
 
-![Nathan's Donuts Code Example 1](assets/code_example3.png) 
+![Nathan's Donuts Code Example 3](assets/code_example3.png) 
 
 ### Custom Boss Encounter
 
 The final boss encounter is implemented as a multi-stage scripted system that coordinates player validation, enemy spawning, zone management, timed objectives, and stage transitions. Each stage has its own activation conditions and cleanup logic, allowing the encounter to progress through distinct gameplay phases.
 
-![Nathan's Donuts Code Example 1](assets/code_example4A.png) 
+![Nathan's Donuts Code Example 4A](assets/code_example4A.png) 
 
 
 
