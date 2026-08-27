@@ -1,3 +1,4 @@
+
 # BO3-GSC-Mod-Library
 
 A collection of custom GSC/CSC gameplay systems, scripting, and level design developed for Call of Duty: Black Ops III Zombies. This repository contains the source code and assets for *Nathan's Donuts and Ethan's Dungeon,* featuring event-driven gameplay, quest systems, interactive mechanics, dynamic lighting, environmental design and custom enemy behavior.
@@ -72,4 +73,5 @@ A major focus of the project is improving the map's graphical quality through mo
 | ![Ethan's Dungeon Main Chamber](assets/Dungeon_chamber.png) | ![Ethan's Dungeon Cavern](assets/Dungeon_cave.png) |
 
 ### Interactive Jukebox System
+https://github.com/user-attachments/assets/42266ece-28cc-4af0-9e5f-80de6917eebd
 
