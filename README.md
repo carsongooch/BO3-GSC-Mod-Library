@@ -1,7 +1,7 @@
 
 # BO3-GSC-Mod-Library
 
-A collection of custom GSC/CSC gameplay systems, scripting, and level design developed for Call of Duty: Black Ops III Zombies. This repository contains the source code and assets for *Nathan's Donuts and Ethan's Dungeon,* featuring event-driven gameplay, quest systems, interactive mechanics, dynamic lighting, environmental design and custom enemy behavior.
+A collection of custom GSC/CSC gameplay systems, scripting, and level design developed for Call of Duty: Black Ops III Zombies. This repository contains the source code and assets for *Nathan's Donuts and Ethan's Dungeon,* featuring event-driven gameplay, quest systems, interactive mechanics, dynamic lighting, environmental design, and custom enemy behavior.
 
 ### *Nathan's Donuts* — Project Impact
  ![Nathan's Donuts Player Stats](assets/n_stat.png) 
@@ -35,13 +35,13 @@ Nathan's Donuts Main Quest is structured as a sequence of interconnected stages,
 
 ## Event-Driven Gameplay:
 
-Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invokes the appropriate progression logic.
+Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player triggered events, update quest state, and invoke the appropriate progression logic.
 
 ![Nathan's Donuts Code Example 2](assets/code_example2.png) 
 
 ### Player Lockdown Event:
 
-This lockdown sequence combines player interaction, multiplayer state validation, round-based progression, and environmental events. Before the lockdown beings, the system verifies that every active player is alive and within a defined radius of the activation trigger. once these requirements are met, the area is sealed and players must survive the required rounds, and the environment is updated when the lockdown begins and ends. 
+This lockdown sequence combines player interaction, multiplayer state validation, round-based progression and environmental events. Before the lockdown begins, the system verifies that every activate player is alive and within a defined radius of the activation trigger. Once these requirements are met, the area is sealed and players must survive the required rounds, while the environment is updated when the lockdown begins and ends.
 
 ![Nathan's Donuts Code Example 3](assets/code_example3.png) 
 
@@ -62,9 +62,9 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ## Ethan's Dungeon — In Development
 
-__Ethan's Dungeon__ is a larger-scale Call of Duty: Black Ops III Zombies project currently in development. Building on the scripting and level-design experience from *Nathan's Donuts,* the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual representation. 
+__Ethan's Dungeon__ is a larger-scale Call of Duty: Black Ops III Zombies project currently in development. Building on the scripting and level-design experience from *Nathan's Donuts,* the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation. 
 
-A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and clear visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
+A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and distinct visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
 
 ### Ethan's Dungeon — Environmental & Visual Design
 
@@ -81,7 +81,7 @@ The jukebox is organized into separate functions responsible for managing its in
 
 ![Ethan's Dungeon Code Example 1](assets/code_example5.png) 
 
-The song selection system uses a shared state variable to determine which track is active. When a player changes songs, the system first hides all previous song indicators before displaying the newly selected one. The selected track is then played locally for every activate player, ensuring that the jukebox's visual state and audio remain synchronized in multiplayer. 
+The song selection system uses a shared state variable to determine which track is active. When a player changes songs, the system stops the currently playing track, updates the shared song state, hides all previous song indicators, and displays the newly selected one. The selected track is then played locally for every activate player, keeping the jukebox's visual state and audio synchronized across multiplayer clients.
 
 ![Ethan's Dungeon Code Example 2](assets/code_example6.png) 
 
