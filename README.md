@@ -18,7 +18,7 @@ A collection of custom GSC/CSC gameplay systems, scripting, and level design dev
 
 </div>
 
-## Nathan's Donuts Overview:
+## Nathan's Donuts Overview
 *Nathan's Donuts* is a fully playable custom Call of Duty: Black Ops III Zombies map developed using the Black Ops III Mod Tools. I designed and implemented the map's gameplay systems, scripted interactive quests and mechanics, along with custom enemy behavior using GSC.
 
 The quest is structured as a sequence of interconnected objectives, with branching gameplay tasks resulting in a final boss encounter.
@@ -33,13 +33,13 @@ The quest is structured as a sequence of interconnected objectives, with branchi
 
 ![Nathan's Donuts Code Example 1](assets/code_example1.png) 
 
-## Event-Driven Gameplay:
+## Event-Driven Gameplay
 
 Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invoke the appropriate progression logic.
 
 ![Nathan's Donuts Code Example 2](assets/code_example2.png) 
 
-### Player Lockdown Event:
+### Player Lockdown Event
 
 This lockdown sequence combines player interaction, multiplayer state validation, round-based progression, and environmental events. Before the lockdown begins, the system verifies that every active player is alive and within a defined radius of the activation trigger. Once these requirements are met, the area is sealed and players must survive the required rounds, while the environment is updated when the lockdown begins and ends.
 
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/27906294-3969-4f47-8fc7-24c935eae717
 
 ## Ethan's Dungeon — In Development
 
-__Ethan's Dungeon__ is a larger-scale Call of Duty: Black Ops III Zombies project currently in development. Building on the scripting and level-design experience from *Nathan's Donuts,* the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation. 
+*Ethan's Dungeon* is a larger-scale Call of Duty: Black Ops III Zombies project currently in development. Building on the scripting and level-design experience from *Nathan's Donuts,* the project expands into more complex gameplay systems, interactive mechanics, and significantly more detailed environmental design and visual presentation. 
 
 A major focus of the project is improving the map's graphical quality through more detailed environments, custom lighting probes, atmospheric effects, and distinct visual themes. The project is still actively being developed, with additional gameplay systems and content planned for future implementation. 
 
