@@ -40,11 +40,15 @@ Nathan's Donuts Main Quest is structured as a sequence of interconnected stages,
 
 ## Event-Driven Gameplay:
 
-Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invokes the apporpriate progression logic.
+Quest progression is driven by player interactions and gameplay events rather than a linear script. Interactive entities wait for player-triggered events, update quest state, and invokes the appropriate progression logic.
 
 ![Nathan's Donuts Code Example 1](assets/code_example2.png) 
 
-### Code Example Three:
+### Player Lockdown Event:
+
+This lockdown sequence (which forces the players to survive in one spot for a certain amount of rounds) combines player interaction, multiplayer state validation, round-based tracking, and environmental events. Before the lockdown can begin, the system verifies that every player is alive and within a defined radius of the activation trigger. Once these requirements are met, the area is sealed, the lockdown lasts for three rounds, and the environment is updated when the lockdown begins and after it ends. 
+
+![Nathan's Donuts Code Example 1](assets/code_example3.png) 
 
 
 
