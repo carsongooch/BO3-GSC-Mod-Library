@@ -306,89 +306,89 @@ function clean_bathroom()
 	{
 		level.bathroom_count = 0;
 		level.bathroom_clean_complete = 5;
-		thread poop_toilet();
-		thread normal_poop1();
-		thread normal_poop2();
-		thread giant_poop();
-		thread normal_poop3();
+		thread bathroom_cleanup();
+		thread normal_waste1();
+		thread normal_waste2();
+		thread giant_waste();
+		thread normal_waste3();
 	}
 }
 
 
-function poop_toilet()
+function bathroom_cleanup()
 {
 	bathroom_clean1 = GetEnt("bathroom_clean1", "targetname");
-	poop1 = GetEnt("poop1", "targetname");
-	poop5 = GetEnt("poop5", "targetname");
+	waste1 = GetEnt("waste1", "targetname");
+	waste5 = GetEnt("waste5", "targetname");
 
 	bathroom_clean1 SetHintString("Hold ^3[{+activate}]^7 to unclog the toilet");
 	bathroom_clean1 waittill("trigger", player);
-	bathroom_clean1 PlaySound("poop_clean");
+	bathroom_clean1 PlaySound("waste_clean");
 	bathroom_clean1 Delete();
-	poop1 Delete();
-	poop5 Delete();
+	waste1 Delete();
+	waste5 Delete();
 	level.bathroom_count++;
 	thread step_four();
 }
 
-function normal_poop1()
+function normal_waste1()
 {
 	bathroom_clean2 = GetEnt("bathroom_clean2", "targetname");
-	poop2 = GetEnt("poop2", "targetname");
-	poop2_clip = GetEnt("poop2_clip", "targetname");
+	waste2 = GetEnt("waste2", "targetname");
+	waste2_clip = GetEnt("waste2_clip", "targetname");
 
-	bathroom_clean2 SetHintString("Hold ^3[{+activate}]^7 to clean the shit");
+	bathroom_clean2 SetHintString("Hold ^3[{+activate}]^7 to clean the waste");
 	bathroom_clean2 waittill("trigger", player);
-	bathroom_clean2 PlaySound("normal_poop");
+	bathroom_clean2 PlaySound("normal_waste");
 	bathroom_clean2 Delete();
-	poop2 Delete();
-	poop2_clip Delete();
+	waste2 Delete();
+	waste2_clip Delete();
 	level.bathroom_count++;
 	thread step_four();
 
 }
 
-function normal_poop2()
+function normal_waste2()
 {
 	bathroom_clean3 = GetEnt("bathroom_clean3", "targetname");
-	poop3 = GetEnt("poop3", "targetname");
-	poop3_clip = GetEnt("poop3_clip", "targetname");
+	waste3 = GetEnt("waste3", "targetname");
+	waste3_clip = GetEnt("waste3_clip", "targetname");
 
-	bathroom_clean3 SetHintString("Hold ^3[{+activate}]^7 to clean the shit");
+	bathroom_clean3 SetHintString("Hold ^3[{+activate}]^7 to clean the waste");
 	bathroom_clean3 waittill("trigger", player);
-	bathroom_clean3 PlaySound("normal_poop");
-	poop3 Delete();
+	bathroom_clean3 PlaySound("normal_waste");
+	waste3 Delete();
 	bathroom_clean3 Delete();
-	poop3_clip Delete();
+	waste3_clip Delete();
 	level.bathroom_count++;
 	thread step_four();
 }
 
 
-function giant_poop()
+function giant_waste()
 {
 	bathroom_clean4 = GetEnt("bathroom_clean4", "targetname");
-	poop4 = GetEnt("poop4", "targetname");
-	poop4_clip = GetEnt("poop4_clip", "targetname");
+	waste4 = GetEnt("waste4", "targetname");
+	waste4_clip = GetEnt("waste4_clip", "targetname");
 
-	bathroom_clean4 SetHintString("Hold ^3[{+activate}]^7 to clean the giant shit");
+	bathroom_clean4 SetHintString("Hold ^3[{+activate}]^7 to clean the huge mess");
 	bathroom_clean4 waittill("trigger", player);
-	bathroom_clean4 PlaySound("giant_poop");
+	bathroom_clean4 PlaySound("giant_mess");
 	bathroom_clean4 Delete();
-	poop4 Delete();
-	poop4_clip Delete();
+	waste4 Delete();
+	waste4_clip Delete();
 	level.bathroom_count++;
 	thread step_four();
 }
 
-function normal_poop3()
+function normal_waste3()
 {
 	bathroom_clean5 = GetEnt("bathroom_clean5", "targetname");
-	bathroom_clean5 SetHintString("Hold ^3[{+activate}]^7 to clean shit");
-	poop6 = GetEnt("poop6", "targetname");
+	bathroom_clean5 SetHintString("Hold ^3[{+activate}]^7 to clean waste");
+	waste6 = GetEnt("waste6", "targetname");
 	bathroom_clean5 waittill("trigger", player);
-	poop6 PlaySound("normal_poop");
-	poop6 Delete();
+	waste6 PlaySound("normal_waste");
+	waste6 Delete();
 	bathroom_clean5 Delete();
 	level.bathroom_count++;
 	thread step_four();
