@@ -78,5 +78,8 @@ One of the main goals of Ethan's Dungeon is to expand beyond the gameplay system
 
 ### Interactive Jukebox Systems
 The jukebox is organized into separate functions responsible for controlling its interaction state, song selection, visual representation, and audio playback. The main function manages jukebox states, while dedicated threads listens for song-change interaction until the jukebox is turned off.
+
+![Ethan's Dungeon Code Example 1](assets/code_example5.png) 
+
 https://github.com/user-attachments/assets/42266ece-28cc-4af0-9e5f-80de6917eebd
 
